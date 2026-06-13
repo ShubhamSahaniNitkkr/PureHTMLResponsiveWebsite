@@ -2,7 +2,8 @@
 
 > Business website template built with pure HTML and CSS — no framework required.
 
-![Screenshot](./screenshot.png)
+<img width="2240" height="1168" alt="image" src="https://github.com/user-attachments/assets/77f85afa-f219-4590-b408-de9b54b4d215" />
+
 > Add `screenshot.png` in project root for preview.
 
 ## Purpose
