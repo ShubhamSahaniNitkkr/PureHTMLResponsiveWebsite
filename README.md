@@ -29,7 +29,7 @@ npm install && npm run dev
 
 ## Live Demo
 
-[https://shubhamsahaniNitkkr.github.io/old-basic-projects/projects/PureHTMLResponsiveWebsite/](https://shubhamsahaniNitkkr.github.io/old-basic-projects/projects/PureHTMLResponsiveWebsite/)
+[https://shubhamsahaniNitkkr.github.io/PureHTMLResponsiveWebsite/](https://shubhamsahaniNitkkr.github.io/PureHTMLResponsiveWebsite/)
 
 
 ## Performance & UI
