@@ -5,6 +5,11 @@ body{
     background-color: #f4f4f4;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 /* gobal */
 .container{
     width: 80%;
@@ -187,6 +192,10 @@ footer{
 
 
 @media(max-width:768px){
+    .container{
+        width: 95%;
+    }
+
     #brand ,header nav , header nav ul li,#boxes .box , article#main-col, aside#sidebar , article#services-col{
         float: none;
         width: 98%;
@@ -195,15 +204,43 @@ footer{
         margin: 5px;
     }
 
+    header #brand{
+        float: none;
+        font-size: 28px;
+    }
+
+    header nav{
+        float: none;
+        margin-top: 10px;
+    }
+
+    header ul li{
+        float: none;
+        display: block;
+        padding: 8px 0;
+    }
+
+    #showcase{
+        min-height: 280px;
+        background-position: center;
+        background-size: cover;
+    }
+
     #showcase h1{
         margin-top: 20px;
+        font-size: 32px;
+    }
+
+    #showcase p{
+        font-size: 18px;
+        width: 95%;
     }
 
     header{
-        padding-bottom:20px; 
+        padding-bottom:20px;
     }
 
-    #newsletter h1,form{
+    #newsletter h1,#newsletter form{
         float: none;
         width: 98%;
         text-align: center;
@@ -212,10 +249,35 @@ footer{
     #newsletter .button1{
         display: block;
         width: 100%;
+        margin-left: 0;
+        margin-top: 8px;
     }
 
     #newsletter input[type="email"]{
         width: 100%;
+        box-sizing: border-box;
     }
 
+    #boxes .box{
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    article#services-col ul li{
+        padding: 12px;
+    }
+
+    #main-title, #services-title{
+        font-size: 1.4em;
+    }
+
+    footer{
+        margin-top: 40px;
+    }
 }
